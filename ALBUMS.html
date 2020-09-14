@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/glightbox.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <span class="navbar-brand" href="#"> <img src="images/gleam-white.png" class="logosize mx-5" alt=""
+                    id="logoimg"> </span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse mx-5" id="navbarSupportedContent">
+                <ul class="navbar-nav algin center ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="album.html">ALBUMS</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="GALLERIES.html">GALLERIES</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="CANTACT.html">CONTACT</a>
+                    </li>
+                </ul>
+                <span class="mx-5">
+                    <i class="fa fa-facebook-official"></i>
+                    <i class="fa fa-twitter mr-2"></i>
+                    <i class="fa fa-instagram mr-2"></i>
+                </span>
+            </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/bg2.jpg" class="d-block w-100" alt="...">
+
+                <div class="carousel-caption d-none d-md-block">
+                    <span style="font-size:10vh;">Albums Grid 3 Cols</span>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="container mt-5">
+        <div class="row mt-5">
+            <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                <div class="text-center">
+                    <button class="btn btn-default filter-button active" id="all" onclick="call(this.id)">All</button>
+                    <button class="btn btn-default filter-button" id="fish" onclick="call(this.id)">Nature</button>
+                    <button class="btn btn-default filter-button" id="cat" onclick="call(this.id)">People</button>
+                    <button class="btn btn-default filter-button" id="dog" onclick="call(this.id)">Weddings</button>
+                </div>
+            </div>
+
+        
+            <a href="images/pic.jpg"
+                class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter dog">
+                <img src="images/pic.jpg">
+            </a>
+            <a href="images/pic3.jpg"
+                class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter dog">
+                <img src="images/pic3.jpg">
+            </a>
+
+            <a href="images/pic2.jpg"
+                class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter dog">
+                <img src="images/pic2.jpg">
+            </a>
+
+            <a href="images/pic4.jpg"
+                class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter cat">
+                <img src="images/pic4.jpg">
+            </a>
+
+            <a href="images/pic5.jpg"
+                class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter cat">
+                <img src="images/pic5.jpg">
+            </a>
+            <a href="images/pic7.jpg"
+                class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter fish">
+                <img src="images/pic7.jpg">
+            </a>
+            <a href="images/pic6.jpg"
+                class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter fish">
+                <img src="images/pic6.jpg">
+            </a>
+            <a href="images/pic8.jpg"
+                class="glightbox gallery_product col-6 col-lg-4 col-md-4 col-sm-4 col-xs-6 filter cat">
+                <img src="images/pic8.jpg">
+            </a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="row mt-5">
+        <div class="col-md-6 padding-0">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <img src="images/alb1.jpg" alt="" class="col8size img-responsive">
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <img src="images/alb2.jpg" alt="" class="col8size img-responsive">
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <img src="images/alb3.jpg" alt="" class="col8size img-responsive">
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <img src="images/alb4.jpg" alt="" class="col8size img-responsive">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-6 padding-0">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <img src="images/alb5.jpg" alt="" class="col8size img-responsive">
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <img src="images/alb6.jpg" alt="" class="col8size img-responsive">
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <img src="images/alb7.jpg" alt="" class="col8size img-responsive">
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <img src="images/alb8.jpg" alt="" class="col8size img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div align="center" class=" p-5" style="background-color: #151515; padding-left: 200px">
+        <div class="row">
+            <div class="col-md-4 ">
+                <H5 class="whitecolor mt-5">ABOUT ME</H5>
+                <p class="whitecolor mt-3">Hi, I’m Anna Smith, a photographer,<br> traveler & Sed ut
+                    perspiciatis unde omnis iste natus error sit <br> voluptatem accusantium doloremque laudantium.
+                </p>
+
+            </div>
+            <div class="col-md-4 mt-5 whitecolor text-center ">
+                <h5 class="whitecolor">Connect</h5>
+                <p class="whitecolor">40 Park Ave, Brooklyn, New York,
+                    NY 10000, US</p>
+                <p class="whitecolor">+1 800 111 2222 <br>
+                    contact@example.com</p>
+            </div>
+            <div class="col-md-4 mt-5 whitecolor text-center  ">
+                <h5 class="whitecolor mt-3"> Quick Links</h5>
+                <ul style="list-style: none;">
+                    <li class="mt-2">Home</li>
+                    <li class="mt-2">About</li>
+                    <li class="mt-2">Portfolio</li>
+                    <li class="mt-2">Contant</li>
+                </ul>
+
+            </div>
+
+        </div>
+        <p class="whitecolor">2020 © Gleam. Designed by MatchThemes.</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- <script src="js/glightbox.min.js"></script> -->
+    <!-- <script src="js/index.js"></script> -->
+
+    <script>
+        $(document).ready(function () {
+            var lastScroll = 212;
+            $(window).scroll(function () {
+                if (scroll <= 212) {
+                    $('.navbar-dark').addClass('navbar-light').removeClass('navbar-dark');
+                    $('.nav-link').removeClass('navcolor');
+                    $('#logoimg').attr("src", "images/gleam-white.png");
+                }
+                else {
+
+                    $('.navbar-light').addClass('navbar-dark').removeClass('navbar-light');
+                    $('.nav-link').addClass('navcolor');
+                    $('#logoimg').attr("src", "images/gleam-dark.png");
+                }
+                console.log("before update scroll var" + lastScroll)
+                lastScroll = scroll;
+            });
+            // $('.portfolio-item').isotope({
+            //     itemSelector: '.item',
+            //     layoutMode: 'fitRows'
+
+            // });
+            // $('portfolio-menu ul li').click(function () {
+            //     $('porfolio-menu ul li').removeClass('active');
+            //     $(this).addClass('active');
+
+            //     var selector = $(this).attr('data-filter');
+            //     $('.porfolio-item').isotope({
+            //         filter: selector
+            //     });
+            //     return false;
+            // });
+
+
+
+
+
+        });
+
+    </script>
+
+
+
+
+</body>
+
+</html>
